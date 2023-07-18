@@ -32,17 +32,21 @@ Here is a small conclusion that I've found based on my findings:
 
 ## Dataset
 
-This dataset contains X rows and Y columns for the variables listed below. The following contains stats in Pokemon: A Pokemon has a unique set of stats that contribute to the Pokemon's identity. 
+This dataset contains 940 rows and 15 columns for the variables listed below (I've used the daily_activity data frame). The following contains a brief description of what are the variables:
 
 Variable  |Description |
 -----|-----|
-Total|The accumulation of all the stats below|
-HP|Also known as "Hit Points": The Health of the Pokemon |
-Attack|The physical attack strength of the Pokemon |
-Special Attack|The non-physical attack moves from the Pokemon |
-Defense|How much can a Pokemon withstand physical attacks
-SpecialDefense|How much can a Pokemon withstand non-physical attacks
-Speed|This dictates which Pokemon can attack first
-Generation|Where the Pokemon is from. Generation and Region will be used interchangeably.
-Type 1 and Type 2 |This is the attribute of the Pokemon. There are 18 types in the world of Pokemon. A Pokemon can have just one typing or two. 
-Legendary|This is a True/False statement that says if a Pokemon is a legendary Pokemon or not. 
+ID|The identification of the user|
+Activity_date|The date when the data was collected|
+Total_steps|The number of steps the user has taken for that day|
+Total_distance|The distance covered for that day |
+Tracker_distance|The distance the tracker was able to track 
+Very_active_distance|The intensity of the distance walking and how much the user walked said intensity
+Moderately_active_distance|The intensity of the distance walking and how much the user walked said intensity
+Light_active_distance	|The intensity of the distance walking and how much the user walked said intensity
+Sedentary_active_distance|The intensity of the distance walking and how much the user walked said intensity
+Very_active_minutes|The total amount of time the user was able to walk that specific intensity 
+Fairly_active_minutes|The total amount of time the user was able to walk that specific intensity 
+Lightly_active_minutes|The total amount of time the user was able to walk that specific intensity 
+Sedentary_minutes|The total amount of time the user was able to walk that specific intensity 
+Calories|The total amount of calories burned off when exercising 
